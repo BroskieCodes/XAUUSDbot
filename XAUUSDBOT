@@ -2,4 +2,14 @@
 Crossover Backtester**
 This is the most common beginner bot.
 Rule 'if short MA > long MA =BUY.
-If 
+If shart MA < long MA = SELL
+''' javascript
+//04 - XAUUSD Robot v1 - Paper Trading Backtest
+console.log("---XAUUSD Robot v1 ---");
+const goldPrices =[2350,2360,2355,2375];
+const shortPeriod =3; // 3-day MA
+const longPeriod =5; // 5-day MA
+let Cash =10000;
+let ouches = 0
+let inTrade = false
+let entryPrice = 0; // We need this to check stop loss
