@@ -1,1 +1,5 @@
-
+###***XAUUSD Robot v1 - MA
+Crossover Backtester**
+This is the most common beginner bot.
+Rule 'if short MA > long MA =BUY.
+If 
